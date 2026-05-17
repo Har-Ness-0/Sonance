@@ -1,11 +1,15 @@
 "use client"
-import {Button} from "@/components/ui/button";
-import {toast} from "sonner";
+import {OrganizationSwitcher} from "@clerk/react";
 
-export default function Home() {
-  return (
-   <Button variant={"outline"} size={"lg"} onClick={()=>toast.success("Hello World")}>
-     Click me
-   </Button>
-  );
+export default function Home(){
+    return (
+        <div className={"flex min-h-screen flex-col items-center justify-center gap 4 bg-background"}>
+            <h1 className={"text-2xl font-semibold"}>Welcome to Sonance</h1>
+            <div className={"flex items-center gap-4"}>
+                <OrganizationSwitcher
+                />
+            </div>
+
+        </div>
+    )
 }

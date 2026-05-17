@@ -11,9 +11,9 @@ export default function OrgSelectionPage(){
                 elements:{
                     rootBox:"mx-auto",
                     card:"shadow-lg",
+            },
             }}
-            }
             />
         </div>
-    )
-}
+    );
+};
