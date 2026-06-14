@@ -28,7 +28,7 @@ export default function RootLayout({
       <ClerkProvider>
           <html lang="en">
           <body
-              className={`${inter.variable} ${geistMono.variable} antialiased`}
+              className={`${inter.className} ${geistMono.variable} antialiased`}
           >
           {children}
           <Toaster />
