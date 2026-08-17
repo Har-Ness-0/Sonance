@@ -47,3 +47,5 @@ next-env.d.ts
 /scripts/system-voices
 
 __pycache__
+.venv/
+.idea/
