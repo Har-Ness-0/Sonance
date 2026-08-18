@@ -10,7 +10,8 @@ export const env = createEnv({
     R2_SECRET_ACCESS_KEY: z.string().min(1),
     R2_BUCKET_NAME: z.string().min(1),
     CHATTERBOX_API_URL: z.url(),
-    CHATTERBOX_API_KEY: z.url().min(1),
+    CHATTERBOX_LOCAL_API_URL: z.url(),
+    CHATTERBOX_API_KEY: z.string().min(1),
 
   },
   experimental__runtimeEnv: {},
